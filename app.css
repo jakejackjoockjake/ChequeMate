@@ -1,0 +1,16 @@
+body {
+    background-color: white;
+}
+
+header {
+    background-color: #500778;
+}
+
+a {
+    color: white;
+}
+
+/* Classes */
+.nav-links {
+    list-style: none;
+}
