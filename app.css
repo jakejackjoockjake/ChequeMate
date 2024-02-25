@@ -17,6 +17,13 @@ h3 {
     color: #bb16a3;
 }
 
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #500778;
+    text-align: center;
+}
+
 /* Classes */
 .navbar {
     background-color: #500778;
@@ -126,6 +133,24 @@ h3 {
     height: auto;
 }
 
+/* Services */
+.services-container {
+    background-color: #FFD1DC;
+    padding: 2rem;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
 @media (max-width: 430px) {
     .about-container {
         display: flex;
@@ -135,6 +160,11 @@ h3 {
     }
 
     .contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-container {
         display: flex;
         flex-direction: column;
     }
