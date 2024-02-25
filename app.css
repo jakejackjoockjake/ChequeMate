@@ -8,6 +8,7 @@ body {
 }
 
 a {
+    font-family: 'Roboto', sans-serif;
     color: white;
     text-decoration: none;
     padding-left: 1rem;
@@ -131,10 +132,24 @@ h4 {
     background-color: #FFD1DC;
 }
 
+.contact-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    border: solid 1px white;
+    color: white;
+}
+
+.contact-btn:hover {
+    background-color: white;
+    color: black;
+}
+
 /* Images */
 .img-container {
     width: 100%;
-    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-container img {
