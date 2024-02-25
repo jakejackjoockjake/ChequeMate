@@ -143,3 +143,17 @@ h3 {
         flex-direction: column;
     }
 }
+
+@media (max-width: 390px) {
+    .sign-in {
+        font-size: 14px;
+    }
+
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+}
