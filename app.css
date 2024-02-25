@@ -15,6 +15,12 @@ a {
     padding-right: 1rem;
 }
 
+.h1 {
+    color: #500778 !important;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
 h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -101,6 +107,12 @@ hr {
     flex-direction: row;
 }
 
+.contact-us {
+    background-image: none;
+    padding: 0;
+    margin: 0;
+}
+
 .sm-txt {
     color: white;
     font-size: 20px;
@@ -175,6 +187,17 @@ hr {
     color: black;
 }
 
+.form-button {
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    color: #bb16a3;
+}
+
+.form-button:hover {
+    background-color: #bb16a3;
+    color: white;
+}
+
 /* Images */
 .img-container {
     width: 100%;
@@ -219,6 +242,65 @@ hr {
     text-align: center;
 }
 
+/* Cards */
+.contact-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 18rem;
+    height: auto;
+    margin: 2rem;
+    border: solid 1px black;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 18rem;
+    height: auto;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card-body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-desc {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px !important;
+    color: #bb16a3;
+}
+
+.card-body p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.bio {
+    width: 70%;
+    padding: 1rem;
+}
+
 @media (max-width: 430px) {
     .about-container {
         display: flex;
@@ -235,6 +317,20 @@ hr {
     .box-container {
         display: flex;
         flex-direction: column;
+    }
+
+    .contact-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
