@@ -47,7 +47,19 @@ hr {
     color: #bb16a3;
 }
 
+li {
+    color: #bb16a3;
+}
+
 /* Classes */
+.skills {
+    list-style: none;
+}
+
+.skills li {
+    color: black;
+}
+
 .navbar {
     background-color: #500778;
     padding: 1rem;
