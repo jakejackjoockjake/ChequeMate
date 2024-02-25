@@ -15,6 +15,13 @@ a {
     padding-right: 1rem;
 }
 
+h1 {
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
 h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -67,10 +74,6 @@ hr {
     width: 100%;
     height: auto;
 }
-.main-contianer {
-    width: 100%;
-    height: auto;
-}
 
 .text-container h1 {
     color: black;
@@ -82,9 +85,10 @@ hr {
 .text-container {
     padding: 2rem;
     height: 700px;
-    background-image: none !important;
+    background-image: none;
 
 }
+
 .sm-txt {
     color: black;
     font-size: 20px;
@@ -92,10 +96,12 @@ hr {
     align-items: center;
     display: flex;
 }
+
 .https {
     width: 100%;
     height: auto;
 }
+
 .https-text {
     color: black;
     font-size: 20px;
@@ -103,32 +109,49 @@ hr {
     align-items: center;
     display: flex;
 }
+
 .tts {
-    background-color: #FFD1DC;
+    background-color: white;
+    border: solid 1px #bb16a3;
     padding: 0.5rem 1rem;
     border-radius: 2rem;
     color: black;
-    justify-content: left;
-    align-items: left;
     display: flex;
+    justify-content: start;
+    align-items: start;
 }
+
 .tts:hover {
-    background-color: transparent;
-    border: solid 1px #bb16a3;
-    color: #500778;
+    background-color: #bb16a3;
+    color: white;
 }
-.safety_tips {
-    width: 100%;
-    height: auto;
-}
+
 .emails {
     width: 100%;
     height: auto;
 }
+
 .emails-text {
     color: black;
     font-size: 20px;
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+.img-header {
+    margin: 0;
+    background-image: url('img/computer.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 430px) {
+    .header .navbar:before {
+        content: "\2630"; /* Unicode character for hamburger icon */
+        font-size: 24px;
+        display: block;
+        /* Additional styling for the menu icon */
+    }
 }
