@@ -146,12 +146,3 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-@media (max-width: 430px) {
-    .header .navbar:before {
-        content: "\2630"; /* Unicode character for hamburger icon */
-        font-size: 24px;
-        display: block;
-        /* Additional styling for the menu icon */
-    }
-}
