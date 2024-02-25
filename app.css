@@ -28,6 +28,15 @@ h4 {
     text-align: center;
 }
 
+hr {
+    color: white !important;
+    width: 100%;
+}
+
+.hr {
+    color: #bb16a3;
+}
+
 /* Classes */
 .navbar {
     background-color: #500778;
@@ -57,6 +66,15 @@ h4 {
 .main-contianer {
     width: 100%;
     height: auto;
+}
+
+.about {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 2rem;
 }
 
 .text-container {
@@ -122,14 +140,15 @@ h4 {
 
 .btn {
     background-color: white;
-    border: solid 1px #FFD1DC;
+    border: solid 1px #bb16a3;
     padding: 0.5rem 1rem;
     border-radius: 2rem;
-    color: black;
+    color: #bb16a3;
 }
 
 .btn:hover {
-    background-color: #FFD1DC;
+    background-color: #bb16a3;
+    color: white;
 }
 
 .contact-btn {
@@ -140,6 +159,18 @@ h4 {
 }
 
 .contact-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.sign-in {
+    padding: 0.5rem 1rem;
+    text-align: end;
+    border: solid 1px white;
+    border-radius: 0.5rem;
+}
+
+.sign-in:hover {
     background-color: white;
     color: black;
 }
@@ -166,6 +197,7 @@ h4 {
 .box-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .box {
@@ -173,6 +205,18 @@ h4 {
     padding: 1rem;
     margin: 1rem;
     border-radius: 0.5rem;
+    width: 18rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px 3px black;
+}
+
+.box p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 @media (max-width: 430px) {
