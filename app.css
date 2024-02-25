@@ -344,15 +344,17 @@ li {
 }
 
 /* Form */
-section{
+section {
+    min-height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    width: 100%;
 }
 
 .form-box {
+    margin: 1rem;
+    padding: 1rem;
     position: relative;
     width: 400px;
     height: 450px;
@@ -363,7 +365,6 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 h2 {
