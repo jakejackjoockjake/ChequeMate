@@ -15,6 +15,10 @@ a {
     padding-right: 1rem;
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
 .h1 {
     color: #500778 !important;
     text-align: center;
@@ -80,7 +84,6 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    padding-left: 2rem;
 }
 
 .text-container {
@@ -242,6 +245,13 @@ hr {
     text-align: center;
 }
 
+/* Resources */
+.resources-container {
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
 /* Cards */
 .contact-cards {
     display: flex;
@@ -334,3 +344,16 @@ hr {
     }
 }
 
+@media (max-width: 390px) {
+    .sign-in {
+        font-size: 14px;
+    }
+
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+}
