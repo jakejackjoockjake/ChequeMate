@@ -61,6 +61,10 @@ li {
 }
 
 /* Classes */
+.about-title {
+    color: white;
+}
+
 .skills {
     list-style: none;
 }
