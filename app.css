@@ -72,6 +72,11 @@ li {
     align-items: center;
 }
 
+.logo{
+    height: 40px;
+    width: 100px;
+}
+
 .nav-links {
     list-style: none;
     margin: 0;
