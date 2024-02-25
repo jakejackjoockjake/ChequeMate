@@ -1,9 +1,46 @@
+html {  
+    scroll-behavior: smooth;  
+}
 body {
+    background-color: white;
     padding: 0;
     margin: 0;
 }
+
+a {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #bb16a3;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #500778;
+    text-align: center;
+}
+
+hr {
+    color: white !important;
+    width: 100%;
+}
+
+.hr {
+    color: #bb16a3;
+}
+
+/* Classes */
 .navbar {
     background-color: #500778;
+    padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,14 +54,82 @@ body {
     padding: 1rem;
 }
 
+.nav-link {
+    font-size: 20px;
+    font-family: 'Roboto', sans;
+}
+
+/* .active a {
+    color: #FFD1DC;
+} */
+
+.main-contianer {
+    width: 100%;
+    height: auto;
+}
 .main-contianer {
     width: 100%;
     height: auto;
 }
 
 .text-container h1 {
-    color: white;
+    color: black;
     align-items: center;
     justify-content: center;
+    display: flex;
+}
+
+.text-container {
+    padding: 2rem;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sm-txt {
+    color: black;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.https {
+    width: 100%;
+    height: auto;
+}
+.https-text {
+    color: black;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.tts {
+    background-color: #FFD1DC;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    color: black;
+    justify-content: left;
+    align-items: left;
+    display: flex;
+}
+.tts:hover {
+    background-color: transparent;
+    border: solid 1px #bb16a3;
+    color: #500778;
+}
+.safety_tips {
+    width: 100%;
+    height: auto;
+}
+.emails {
+    width: 100%;
+    height: auto;
+}
+.emails-text {
+    color: black;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
     display: flex;
 }
