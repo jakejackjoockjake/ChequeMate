@@ -54,7 +54,7 @@ h3 {
 
 .text-container {
     padding: 2rem;
-    
+
 }
 
 .contact-container {
@@ -115,9 +115,18 @@ h3 {
     padding: 0.5rem 1rem;
     border-radius: 2rem;
     color: black;
-}
 
-.btn:hover {
+}
+.tts {
+    background-color: white;
+    border: solid 1px #FFD1DC;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+.tts:hover {
     background-color: #FFD1DC;
 }
 
