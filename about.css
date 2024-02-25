@@ -52,6 +52,11 @@ h3 {
     display: flex;
 }
 
+.text-container{
+    padding: 2rem;
+    
+}
+
 .contact-container {
     background-image: none;
     display: flex;
